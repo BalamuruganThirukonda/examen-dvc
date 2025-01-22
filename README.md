@@ -22,7 +22,8 @@ Dans ce dépôt vous trouverez l'architecture proposé pour mettre en place la s
 │   └── README.md.py
 │   └── dvc.lock
 │   └── dvc.yaml
-│   └── READ.md #Contains Name, Email and Dagshub Repository information       
+│   └── READ.md #Contains Name, Email and Dagshub Repository information 
+│   └── requirements.txt      
 ```
 N'hésitez pas à rajouter les dossiers ou les fichiers qui vous semblent pertinents.
 
