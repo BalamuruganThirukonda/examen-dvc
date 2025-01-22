@@ -11,7 +11,14 @@ Dans ce dépôt vous trouverez l'architecture proposé pour mettre en place la s
 │   ├── models      
 │   │   ├── data      
 │   │   └── models        
-│   ├── src       
+│   ├── src
+│   │   ├── data
+│   │   |    ├── split_data.py      
+│   │   |    └── normalized_data.py     
+│   │   └── models
+│   │        ├── evaluate_model.py
+│   │        ├── grid_search.py    
+│   │        └── train_model.py       
 │   └── README.md.py
 │   └── dvc.lock
 │   └── dvc.yaml
