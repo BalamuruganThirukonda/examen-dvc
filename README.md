@@ -3,15 +3,19 @@ Dans ce dépôt vous trouverez l'architecture proposé pour mettre en place la s
 
 ```bash       
 ├── examen_dvc          
-│   ├── data       
-│   │   ├── processed      
-│   │   └── raw       
+│   ├── data
+│   │   ├── normalized_data      
+│   │   ├── processed_data      
+│   │   └── raw _data      
 │   ├── metrics       
 │   ├── models      
 │   │   ├── data      
 │   │   └── models        
 │   ├── src       
-│   └── README.md.py       
+│   └── README.md.py
+│   └── dvc.lock
+│   └── dvc.yaml
+│   └── READ.md #Contains Name, Email and Dagshub Repository information       
 ```
 N'hésitez pas à rajouter les dossiers ou les fichiers qui vous semblent pertinents.
 
